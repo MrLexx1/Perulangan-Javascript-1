@@ -1,8 +1,8 @@
-for (let i = 0; i < 4; i++) {
-  let row = "";
-  for (let j = 0; j < 4; j++) {
-    row += j + 1;
+let result = "";
+for (let i = 1; i <= 4; i++) {
+  for (let j = 1; j <= 4; j++) {
+    result += j;
   }
-  console.log(row);
-  alert(row);
+  result += "\n";
 }
+console.log(result);
